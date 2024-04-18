@@ -108,11 +108,22 @@
             "autoFadeSpeed": 1,
             "id": "d1ad4dab-c0db-4762-a594-9b675eea3a53",
             "symbol": "scene_3",
-            "x": 283,
+            "x": 282.5,
             "y": 389,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "This is the 1st level"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "7ea27305-6702-4174-98fe-12a31052e3dc"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -127,7 +138,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "black.png"
+            "filename": "black.png",
+            "tileColors": []
         },
         {
             "id": "d1087d29-9c78-4c4b-badd-8e6f15f2942e",
@@ -137,7 +149,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "cave.png"
+            "filename": "cave.png",
+            "tileColors": []
         },
         {
             "id": "673d4bf1-c3c9-49d1-9560-5d91d0607fc8",
@@ -147,7 +160,8 @@
             "height": 18,
             "imageWidth": 256,
             "imageHeight": 144,
-            "filename": "hidden_cave.png"
+            "filename": "hidden_cave.png",
+            "tileColors": []
         },
         {
             "id": "5726e6fc-8027-4feb-938e-470681305109",
@@ -157,7 +171,8 @@
             "height": 18,
             "imageWidth": 256,
             "imageHeight": 144,
-            "filename": "house-wide.png"
+            "filename": "house-wide.png",
+            "tileColors": []
         },
         {
             "id": "5153a7b1-995b-4f05-807b-4ae0df63d311",
@@ -167,7 +182,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "house.png"
+            "filename": "house.png",
+            "tileColors": []
         },
         {
             "id": "54b70145-55ed-4632-809d-806ed2bbc6d9",
@@ -177,7 +193,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "launch_site.png"
+            "filename": "launch_site.png",
+            "tileColors": []
         },
         {
             "id": "37f18322-2936-4d76-93ef-7a810530ca99",
@@ -187,7 +204,8 @@
             "height": 18,
             "imageWidth": 2040,
             "imageHeight": 144,
-            "filename": "leaving_earth.png"
+            "filename": "leaving_earth.png",
+            "tileColors": []
         },
         {
             "id": "1ec284e9-8f45-46e6-806b-2550d0332724",
@@ -197,7 +215,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "logo.png"
+            "filename": "logo.png",
+            "tileColors": []
         },
         {
             "id": "8e474313-653f-462b-a22b-6222e87f7e78",
@@ -207,7 +226,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "menu.png"
+            "filename": "menu.png",
+            "tileColors": []
         },
         {
             "id": "8385a86a-2c06-4cf4-bbc1-ea4ca0ea57a2",
@@ -217,7 +237,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "menu_page1.png"
+            "filename": "menu_page1.png",
+            "tileColors": []
         },
         {
             "id": "590a119f-a607-4f39-a880-aa500ab3318a",
@@ -227,7 +248,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "menu_page2.png"
+            "filename": "menu_page2.png",
+            "tileColors": []
         },
         {
             "id": "a2ce5d08-6ac1-479c-969c-e38a35196318",
@@ -237,7 +259,8 @@
             "height": 32,
             "imageWidth": 256,
             "imageHeight": 256,
-            "filename": "outside.png"
+            "filename": "outside.png",
+            "tileColors": []
         },
         {
             "id": "565340ae-76cf-4b0f-a594-fed727bbf675",
@@ -247,7 +270,8 @@
             "height": 18,
             "imageWidth": 640,
             "imageHeight": 144,
-            "filename": "parallax.png"
+            "filename": "parallax.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -268,7 +292,8 @@
             "height": 18,
             "imageWidth": 1288,
             "imageHeight": 144,
-            "filename": "platform_path.png"
+            "filename": "platform_path.png",
+            "tileColors": []
         },
         {
             "id": "3af6c092-9f77-4dd6-8881-25de2250d9fd",
@@ -278,7 +303,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "room.png"
+            "filename": "room.png",
+            "tileColors": []
         },
         {
             "id": "b94971f1-3c72-4ac6-a85f-fb587a7b537c",
@@ -288,7 +314,8 @@
             "height": 56,
             "imageWidth": 448,
             "imageHeight": 448,
-            "filename": "sample_town.png"
+            "filename": "sample_town.png",
+            "tileColors": []
         },
         {
             "id": "157b41f8-e92b-4b49-96b5-a75ac29223f7",
@@ -298,7 +325,8 @@
             "height": 32,
             "imageWidth": 256,
             "imageHeight": 256,
-            "filename": "stars.png"
+            "filename": "stars.png",
+            "tileColors": []
         },
         {
             "id": "b56bf383-e7f1-4c63-b3cd-d7d3201bf926",
@@ -308,7 +336,8 @@
             "height": 18,
             "imageWidth": 2040,
             "imageHeight": 144,
-            "filename": "stars_wide.png"
+            "filename": "stars_wide.png",
+            "tileColors": []
         },
         {
             "id": "77627432-1179-4c86-ad2d-c090b23ebd09",
@@ -318,7 +347,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "titlescreen.png"
+            "filename": "titlescreen.png",
+            "tileColors": []
         },
         {
             "id": "c021c1bf-d407-402d-b9aa-2d2db470520b",
@@ -328,7 +358,8 @@
             "height": 32,
             "imageWidth": 256,
             "imageHeight": 256,
-            "filename": "underground.png"
+            "filename": "underground.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -8868,7 +8899,7 @@
             "symbol": "sound_tronimal_sound_effect",
             "filename": "Tronimal_Sound_Effects.sav",
             "type": "fxhammer",
-            "inode": "3377699721449225",
+            "inode": "281474977643204",
             "_v": 1713427601460
         }
     ],
@@ -8983,8 +9014,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 487,
-        "worldScrollY": 316,
+        "worldScrollX": 489,
+        "worldScrollY": 324,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,

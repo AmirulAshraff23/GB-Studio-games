@@ -6,7 +6,7 @@
     "scenes": [
         {
             "name": "Title Screen",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "77627432-1179-4c86-ad2d-c090b23ebd09",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Level Select",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "8e474313-653f-462b-a22b-6222e87f7e78",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
