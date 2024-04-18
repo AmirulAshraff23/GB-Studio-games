@@ -122,6 +122,16 @@
                         "avatarId": ""
                     },
                     "id": "7ea27305-6702-4174-98fe-12a31052e3dc"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "More stuff to come later"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "f83c7738-c4dd-418e-9e3f-58a7a4e5c0cf"
                 }
             ],
             "playerHit1Script": [],
