@@ -110,7 +110,52 @@
             "symbol": "scene_3",
             "x": 282.5,
             "y": 389,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "780a84d4-4afd-4fc2-8739-22bca18ce7a2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_0",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I am a cat \nOh wait..Meow~"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "0682bb6e-1d26-450b-b902-c8dec81ea22c"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "This is the 1st level meow~"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "c278d13b-791a-4406-bba6-b82ebbb77a7e"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "246c7fed-2a3c-4dde-894b-ec1ce66b4917",
+                    "x": 4,
+                    "y": 4
+                }
+            ],
             "triggers": [],
             "script": [
                 {
@@ -136,7 +181,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "bb4d3315-b8d2-4652-857d-12b57b378f0f"
         },
         {
             "name": "Level 2",
@@ -159,7 +205,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "This is the 1st level"
+                            "This is the 2st level"
                         ],
                         "avatarId": ""
                     },
@@ -9056,9 +9102,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "d893634e-e172-4d9f-b6bd-55efd8ec37f4",
-        "startX": 0,
-        "startY": 0,
+        "startSceneId": "d1ad4dab-c0db-4762-a594-9b675eea3a53",
+        "startX": 9,
+        "startY": 8,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
@@ -9066,9 +9112,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 750,
-        "worldScrollY": 611,
-        "zoom": 200,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 50,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
