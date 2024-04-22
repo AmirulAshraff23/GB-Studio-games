@@ -137,6 +137,48 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Level 2",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "05fa69b8-2509-49f1-99e2-b75f1df94064",
+            "symbol": "scene_4",
+            "x": 507,
+            "y": 391,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "This is the 1st level"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "faa0a305-a750-4eff-8d45-cf5b04a39251"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "More stuff to come later"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "27d5b7ca-e08b-4a0f-a83b-ea12f81f8a83"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -9024,8 +9066,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 489,
-        "worldScrollY": 324,
+        "worldScrollX": 750,
+        "worldScrollY": 611,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
